@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ravi Teja | Portfolio</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e2e8f0;
+  }
+
+  header {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .subtitle {
+    color: #38bdf8;
+    margin-top: 10px;
+  }
+
+  section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(56, 189, 248, 0.2);
+  }
+
+  h2 {
+    color: #38bdf8;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  a {
+    color: #38bdf8;
+    text-decoration: none;
+  }
+
+  /* Fade-in animation */
+  .fade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+  }
+
+  .fade:nth-child(1) { animation-delay: 0.2s; }
+  .fade:nth-child(2) { animation-delay: 0.4s; }
+  .fade:nth-child(3) { animation-delay: 0.6s; }
+  .fade:nth-child(4) { animation-delay: 0.8s; }
+  .fade:nth-child(5) { animation-delay: 1s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ravi Teja Chittaluri</h1>
+  <p class="subtitle">Senior Full Stack Engineer | Microservices | AWS & Azure</p>
+</header>
+
+<section>
+
+  <div class="card fade">
+    <h2>About Me</h2>
+    <p>
+      Full Stack Engineer with 5+ years of experience building scalable, cloud-native applications using Java, Spring Boot, and microservices architecture.
+    </p>
+    <p>
+      Specialized in system design, performance optimization, and deploying production-ready applications on AWS and Azure.
+    </p>
+  </div>
+
+  <div class="card fade">
+    <h2>📊 By The Numbers</h2>
+    <ul>
+      <li>5+ Years Experience</li>
+      <li>30% API Latency Reduction</li>
+      <li>40% Code Optimization</li>
+      <li>10+ Microservices Built & Deployed</li>
+    </ul>
+  </div>
+
+  <div class="card fade">
+    <h2>🚀 Projects</h2>
+
+    <h3>Healthcare Microservices System</h3>
+    <p>Spring Boot + React system deployed on Azure Kubernetes with secure APIs and optimized performance.</p>
+
+    <h3>Real-Time Transaction Monitoring</h3>
+    <p>Kafka-based system for processing real-time financial data with Redis caching.</p>
+
+    <h3>GenAI Extraction Platform</h3>
+    <p>Backend system for extracting structured data using AI-based concepts.</p>
+
+  </div>
+
+  <div class="card fade">
+    <h2>🛠 Tech Stack</h2>
+    <p>Java, Spring Boot, React, AWS, Azure, Docker, Kubernetes, Kafka, Redis</p>
+  </div>
+
+  <div class="card fade">
+    <h2>📫 Contact</h2>
+    <p>
+      GitHub: <a href="https://github.com/rchit1910-stack">github.com/rchit1910-stack</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/ravi-chittaluri">linkedin.com/in/ravi-chittaluri</a><br>
+      Email: rchit1910@gmail.com
+    </p>
+  </div>
+
+</section>
+
+</body>
+</html>
