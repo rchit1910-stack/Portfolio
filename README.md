@@ -51,20 +51,11 @@
     color: #38bdf8;
   }
 
-  h3 {
-    margin-bottom: 5px;
-  }
-
-  ul {
-    padding-left: 20px;
-  }
-
   a {
     color: #38bdf8;
     text-decoration: none;
   }
 
-  /* Fade-in animation */
   .fade {
     opacity: 0;
     transform: translateY(20px);
